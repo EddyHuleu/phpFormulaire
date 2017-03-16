@@ -2,8 +2,8 @@
     $message = [];
     $pdo = new PDO(
                 'mysql:host=localhost;dbname=colyseum;charset=UTF8',
-                'eddylive',
-                'live');
+                '',
+                '');
     $pdo->setAttribute(
                 PDO::ATTR_ERRMODE,
                 PDO::ERRMODE_EXCEPTION);
